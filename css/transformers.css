@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Filson Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Regular'), url('fonts/FilsonProRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Medium'), url('fonts/FilsonProMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Filson Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Filson Pro Bold'), url('fonts/FilsonProBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Big Shoulders Text '), url('fonts/BigShouldersText-VariableFont_wght.ttf') format('ttf');
+}
+
+/*
+@font-face {
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Big Shoulders Text'), url('fonts/BigShouldersText-Bold.ttf') format('ttf');
+}
+*/
+
+.thenav {
+    background-color: #022F40;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Filson Regular';
+    color: white;
+}
+
+.logo {
+    font-family: 'Big Shoulders Text';
+    font-size: 22px;    
+    font-weight: bold;
+}
+
+.banmage {
+    min-width: 100%;
+    min-height: 610px;
+    max-height: 610px;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 120px;
+    width: 140px;
+    margin-right: 30px;
+    opacity: unset;
+}
+
+@media screen and (min-width: 900px) {
+    .carousel-indicators [data-bs-target] {
+        max-width: 182px;
+        margin-left: 23px;
+    }
+}
+
+.indicaters, .thebans {
+    display: inline-block;
+}
+
+.indicaters {
+    max-width: 21%;
+    margin-bottom: 14px;
+}
+
+.indicaters img {
+    object-fit: cover;
+}
+
+.carousel-indicators .active {
+    border: 2px solid #E4D6A7;
+}
+
+.carousel-caption {
+    top: 10%;
+    text-align: left;
+    font-family: 'Big Shoulders Text';
+    font-weight: bold;
+    width: fit-content;
+    right: -20%;
+}
+
+@media screen and (max-width: 800px) {
+    .banmage {
+        min-height: 550px;
+        max-height: 550px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        display: none;
+    }
+
+    .carousel-caption {
+        top: 5% !important;
+        text-align: center;
+        right: unset;
+        left: unset;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 45px;
+    }
+    
+    .carousel-caption h4 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carousel-caption {
+        margin: 1%;
+        top: 5% !important;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .carousel-caption {
+        margin: 5%;
+        top: 1% !important;
+    }
+}
+
+
+.carousel-caption button {
+    width: 150px;
+    height: 38px;
+    font-size: 25px;
+    line-height: 5px;
+    border: none;
+    background-color: #E4D6A7;
+    color: #022F40;
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+.carousel-caption h1, h4 {
+    width: fit-content;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: unset;
+    top: unset;
+    opacity: unset;
+    width: 60px;
+    height: 30px;
+}
+
+.carousel-control-next {
+    right: unset;
+    background-color: #E4D6A7;
+    color: #022F40;
+}
+
+.carousel-control-prev {
+    left: unset;
+    background-color: #022F40;
+    color: #E4D6A7;
+}
+
+.slideit {
+    width: fit-content;
+    position: absolute;
+    right: -1.3%;
+    bottom: 10%;
+}
+
+.searcher {
+    background-color: #E4D6A7;
+    margin-top: -8px;
+}
+
+@media screen and (min-width: 780px) {
+    .searcher {
+        background-color: #E4D6A7;
+        height: 60px;
+        margin-top: -8px;
+    }
+
+    .searchlect {
+        width: 170px;
+        height: 40px;
+        background: transparent;
+        text-align: start;
+        padding-left: 18px;
+        font-family: 'Filson Medium';
+        opacity: 0.5;
+        font-size: 17px;
+        border-width: 2px;
+        margin-right: 30px; 
+        background-image: url('../images/iconmonstr-arrow-65.svg');
+        background-repeat: no-repeat;
+        background-position: 90%;
+        background-size: 15px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
+
+    .searchb {
+        border-radius: 2.5px;
+        border: none;
+        background-color: #022F40;
+        height: 40px;
+        width: 150px;
+        color: #E4D6A7;
+        font-family: 'Filson Bold';
+        margin-left: 10px;
+        font-size: 17px;
+    }
+
+    .fuelsearch {
+        padding-left: 35px;
+    }
+}
+
