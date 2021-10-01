@@ -188,7 +188,39 @@
     margin-top: -8px;
 }
 
-@media screen and (min-width: 780px) {
+.searchlect {
+    width: 170px;
+    height: 40px;
+    margin: 12px;
+    background: transparent;
+    text-align: start;
+    padding-left: 18px;
+    font-family: 'Filson Medium';
+    opacity: 0.5;
+    font-size: 17px;
+    border-width: 2px;
+    background-image: url('../images/iconmonstr-arrow-65.svg');
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.searchb {
+    border-radius: 2.5px;
+    margin: 12px;
+    border: none;
+    background-color: #022F40;
+    height: 40px;
+    width: 150px;
+    color: #E4D6A7;
+    font-family: 'Filson Bold';
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+@media screen and (min-width: 820px) {
     .searcher {
         background-color: #E4D6A7;
         height: 60px;
@@ -231,3 +263,94 @@
     }
 }
 
+.firstsect h2 {
+    font-family: 'Big Shoulders Text';
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.ruggedimgs {
+    background-color: #E4D6A7;
+    margin-top: -15px;
+}
+
+.ruggedimgs img {
+    margin: 18px;
+    padding: 0;
+    object-fit: cover;
+}
+
+.the-text {
+    margin: 18px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 10px !important;
+}
+
+.the-text h1 {
+    font-family: 'Filson Bold';
+    font-size: 45px;
+    line-height: 1.3;
+}
+
+.the-text p {
+    font-family: 'Filson Regular';
+    font-size: 20px;
+    width:100%;
+    margin-top: 5px !important;
+}
+
+.the-text img {
+    width: 23px;
+    height: 23px;
+    margin: 0;
+    margin-right: 11px;
+}
+
+.more-info {
+    font-family: 'Filson Bold';
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+@media screen and (max-width: 320px) {
+    .firstimg {
+        margin: 0;
+    }
+
+    .dafirst {
+        font-size: 13px;
+    }
+}
+
+.ruggednext {
+    border: none;
+    background-color: #022F40;
+    color: #E4D6A7;
+    font-family: 'Filson Regular';
+    position: absolute;
+    right: 0;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.ruggednext:hover {
+    color: white;
+}
+
+.btn {
+    
+}
