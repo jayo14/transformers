@@ -476,7 +476,7 @@
 }
 
 .advert {
-    margin-top: 75px;
+    margin-top: 90px;
     padding-left: unset;
     padding-right: unset;
     background-color: #ccc;
@@ -516,11 +516,12 @@
 }
 
 .solar-sect {
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .main-img {
     width: 100%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 450px) {
@@ -558,4 +559,38 @@
 
 .dafirst-solar {
     margin-top: 0;
+}
+
+.part {
+    background-color: #E4D6A7;
+    width: 160px;
+    height: 130px;
+}
+
+.parts-head {
+    font-family: 'Filson Bold';
+    font-size: 32px;
+    width: fit-content;
+}
+
+.part h2 {
+    font-family: 'Filson Medium';
+    font-size: 24px;
+}
+
+.part img {
+    width: 60px;
+    height: 60px;
+}
+
+.parts-sect p {
+    font-family: 'Filson Bold';
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+footer {
+    height: 650px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../images/pexels-cesar-perez-733745.jpg');
+    background-size: cover;
 }
