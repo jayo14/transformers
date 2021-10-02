@@ -263,7 +263,7 @@
     }
 }
 
-.firstsect h2, .electric-sect h2 {
+.firstsect h2, .electric-sect h2, .solar-sect h2 {
     font-family: 'Big Shoulders Text';
     font-weight: bolder;
     font-size: 32px;
@@ -513,4 +513,49 @@
     .cover-it button {
         margin-top: 45px;
     }
+}
+
+.solar-sect {
+    margin-top: 60px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+    .all-cardes>* {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.cardes {
+    margin: 20px 0;
+}
+
+.cardes h3 {
+    font-family: 'Big Shoulders Text';
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 13px;
+}
+
+.solar-info img {
+    width: 23px;
+    height: 23px;
+}
+
+.more-solar {
+    font-family: 'Filson Bold';
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.solar-info section {
+    margin: 13px 0;
+}
+
+.dafirst-solar {
+    margin-top: 0;
 }
