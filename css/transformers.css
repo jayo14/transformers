@@ -590,7 +590,77 @@
 }
 
 footer {
-    height: 650px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../images/pexels-cesar-perez-733745.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/pexels-cesar-perez-733745\ 2.jpg');
     background-size: cover;
+    background-position: center;
+}
+
+.foot-logo {
+    color: #E4D6A7;
+    font-family: 'Big Shoulders Text';
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.foot-sect {
+    margin-top: 30px;
+    max-width: 23%;
+}
+
+@media screen and (max-width: 530px) {
+    .foot-sect {
+        display: block !important;
+        text-align: center;
+        margin-right: 2rem !important;
+        max-width: unset;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .foot-sect {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .foot-logo img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.foot-sect p {
+    color: white;
+    font-family: 'Filson Medium';
+    font-size: 19px;
+}
+
+.foot-sect h3 {
+    font-size: 25px;
+    color: #E4D6A7;
+    margin-bottom: 24px;
+}
+
+.foot-company p {
+    font-family: 'Filson Medium';
+    font-size: 13px;
+}
+
+.foot-company img {
+    margin-bottom: 3px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .legalit {
+        display: block !important;
+        text-align: center;
+    }
+
+    .contact-icons {
+        margin-bottom: 15px !important;
+    }
 }
