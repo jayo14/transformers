@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+/*The beginning of transormers.css */
+
 @font-face {
     font-family: 'Filson Regular';
     font-style: normal;
@@ -676,73 +686,5 @@ footer {
 
     .captioneer * {
         background-color: unset;
-    }
-}
-
-.specs {
-    background-color: rgba(2, 47, 64, 0.7);
-    height: 80px;
-    position: relative;
-    top: unset;
-    bottom: 80px;
-}
-
-.specs section {
-    font-family: 'Filson Bold';
-}
-
-.title {
-    font-size: 13px;
-}
-
-.thespec {
-    font-size: 18px;
-}
-
-.the-text {
-    margin-top: -60px !important;
-}
-
-.combspec {
-    padding-right: unset;
-    padding-left: unset;
-}
-
-@media screen and (max-width: 576px) {
-    .combspec {
-        padding-right: unset;
-        padding-left: unset;
-    }
-
-    .specs {
-        bottom: 0;
-        width: 100% !important;
-        border-radius: 0;
-    }
-
-    .the-text {
-        margin-top: 25px !important;
-    }
-}
-
-@media screen and (min-width: 975px) {
-    .the-text {
-        margin-top: auto !important;
-    }
-
-    .combspec {
-        padding-left: 0;
-        padding-right: calc(var(--bs-gutter-x) * .6);
-    }
-
-    .combspec img {
-        margin: 0 !important;
-        height: 100%;
-    }
-}
-
-@media screen and (max-width: 365px) {
-    .specs {
-        height: auto;
     }
 }
