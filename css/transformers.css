@@ -664,3 +664,17 @@ footer {
         margin-bottom: 15px !important;
     }
 }
+
+.captioneer * {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 768px) {
+    .captioneer {
+        color: #ffffff;
+    }
+
+    .captioneer * {
+        background-color: unset;
+    }
+}
