@@ -453,11 +453,42 @@
 
 #electricCarousel .carousel-indicators {
     position: absolute;
-    margin-bottom: -34px;
+    margin-bottom: -37px;
 }
 
 #electricCarousel .carousel-indicators button {
     margin-right: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .electric-controls {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .electric-controls .carousel-control-next, .electric-controls .carousel-control-prev {
+        position: unset;
+        display: unset;
+        top: unset;
+        bottom: unset;
+        width: unset;
+    }
+
+    .electric-controls .prev-icon {
+        margin-left: unset;
+    }
+
+    .electric-controls .next-icon {
+        margin-right: unset;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .carrds {
+        display: block;
+        width: 100%;
+        margin: 36px 0;
+    }
 }
 
 /*
