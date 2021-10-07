@@ -780,3 +780,14 @@ footer {
         height: auto;
     }
 }
+
+@media screen and (max-width: 540px) {
+    .electric-info h1 {
+        font-size: 25px;
+    }
+
+    .electric-info .more-info {
+        display: inline;
+        font-size: 13px;
+    }
+}
