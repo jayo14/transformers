@@ -219,7 +219,7 @@
 .slideit {
     width: fit-content;
     position: absolute;
-    right: 0.1%;
+    right: 0.5%;
     padding-right: 0 !important;
     bottom: 10%;
 }
