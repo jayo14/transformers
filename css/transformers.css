@@ -791,3 +791,52 @@ footer {
         font-size: 13px;
     }
 }
+
+body, html {
+    height: 100%;
+}
+
+#loading {
+    position: fixed; /* Sit on top of the page content */
+    /*display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    right: 0;
+    left: 100%;
+    bottom: 0;
+    background-color: #022F40; /* Black background with opacity */
+    z-index: 12; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    animation: slide 5s ease-in;
+}
+
+#loading svg {
+    /*-webkit-transition: 3s ease-in-out;
+    -moz-transition: 3s ease-in-out;
+    -o-transition: 3s ease-in-out;*/
+    position: relative;
+    animation: movecar 22s;
+    color: #E4D6A7;
+}
+
+@keyframes slide {
+    from {
+        left: 0;
+    };
+
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes movecar {
+    from {left: -80px;}
+    to {left: 100%;}
+}

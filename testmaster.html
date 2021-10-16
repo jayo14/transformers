@@ -1,76 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/testmaster.css" rel="stylesheet" type="text/css">
-    <title>Transformers Home</title>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+</style>
 </head>
 <body>
-    
- 
-        <!-- Left and right controls/icons -->
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+<h1>The @keyframes Rule</h1>
+
+<p><strong>Note:</strong> The @keyframes rule is not supported in Internet Explorer 9 and earlier versions.</p>
+
+<div></div>
+
 </body>
 </html>
-
-
-
-<!--Beginning of new code written in testmasters that makes up the new rugged cards-->
-
-<div class="container-fluid firstsect">
-    <h2>Rugged and Rigid</h2><br>
-    <div id="ruggedSlide" class="carousel slide">
-        <div class="carousel-inner inner-rugged">
-            <div class="carousel-item active">
-                <div class="row ruggedimgs d-flex flex-row">
-                    <img src="images/martin-katler-eHydtScQK2s-unsplash 1.png" class="col-lg-8 m-0 m-lg-3">
-                    <div class="col the-text d-inline-block mx-3 mx-lg-0 my-lg-auto mt-4">
-                        <h1>2018 Robotron XL</h1>
-                        <p class="mt-3 mb-3">Built for the drive, made for the wild. This beast is equipped with the exclusive landmaker tires with edges smoothened with dwarf iron.</p>
-                        <div class="short-info mt-4">
-                            <img src="images/iconmonstr-star-6 1.png" class="firstimg"><span class="more-info dafirst">8.9/10 Rating in the US Car Rankings</span><br>
-                            <img src="images/iconmonstr-car-8 1.png"><span class="more-info">Carbon-Electric Car</span><br>
-                            <img src="images/front_hand_black_36dp 1.png"><span class="more-info">Manual Transmission</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row ruggedimgs d-flex flex-row">
-                    <img src="images/martin-katler-eHydtScQK2s-unsplash 1.png" class="col-lg-8 m-0 m-lg-3">
-                    <div class="col the-text d-inline-block mx-3 mx-lg-0 my-lg-auto mt-4">
-                        <h1>2020 Robotron X\RL</h1>
-                        <p class="mt-3 mb-3">Built for the drive, made for the wild. This beast is equipped with the exclusive landmaker tires with edges smoothened with dwarf iron.</p>
-                        <div class="short-info mt-4">
-                            <img src="images/iconmonstr-star-6 1.png" class="firstimg"><span class="more-info dafirst">8.9/10 Rating in the US Car Rankings</span><br>
-                            <img src="images/iconmonstr-car-8 1.png"><span class="more-info">Carbon-Electric Car</span><br>
-                            <img src="images/front_hand_black_36dp 1.png"><span class="more-info">Manual Transmission</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row ruggedimgs d-flex flex-row">
-                    <img src="images/martin-katler-eHydtScQK2s-unsplash 1.png" class="col-lg-8 m-0 m-lg-3">
-                    <div class="col the-text d-inline-block mx-3 mx-lg-0 my-lg-auto mt-4">
-                        <h1>2038 Dragons RPXL</h1>
-                        <p class="mt-3 mb-3">Built for the drive, made for the wild. This beast is equipped with the exclusive landmaker tires with edges smoothened with dwarf iron.</p>
-                        <div class="short-info mt-4">
-                            <img src="images/iconmonstr-star-6 1.png" class="firstimg"><span class="more-info dafirst">8.9/10 Rating in the US Car Rankings</span><br>
-                            <img src="images/iconmonstr-car-8 1.png"><span class="more-info">Carbon-Electric Car</span><br>
-                            <img src="images/front_hand_black_36dp 1.png"><span class="more-info">Manual Transmission</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="ruggedprev mt-3 mx-3 d-none d-sm-inline-block" data-bs-target="#ruggedSlide" data-bs-slide="prev">Review Previous Car</button>
-        <button class="ruggednext mt-3 mx-3 d-none d-sm-inline-block" data-bs-target="#ruggedSlide" data-bs-slide="next">View Next Car</button>
-        <button class="ruggedprev mt-3 mx-2 d-inline-block d-sm-none" data-bs-target="#ruggedSlide" data-bs-slide="prev">Previous</button>
-        <button class="ruggednext mt-3 mx-2 d-inline-block d-sm-none" data-bs-target="#ruggedSlide" data-bs-slide="next">Next</button>
-    </div>
-</div>
