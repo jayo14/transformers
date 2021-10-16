@@ -248,6 +248,11 @@
     -webkit-appearance: none;
 }
 
+.mobsearchlect {
+    width: 110px;
+    margin: 10px;
+}
+
 .searchb {
     border-radius: 2.5px;
     margin: 12px;
@@ -259,6 +264,15 @@
     font-family: 'Filson Bold';
     margin-left: 10px;
     font-size: 17px;
+}
+
+.mobsearchb {
+    width: 130px;
+    margin: 10px;
+}
+
+.long {
+    width: 160px;
 }
 
 @media screen and (min-width: 820px) {
