@@ -818,7 +818,7 @@ body, html {
 
 .overbay {
     left: 100%;
-    animation: slide 5s ease-in;
+    animation: slide 2s ease-in;
 }
 
 #loading svg {
@@ -826,11 +826,42 @@ body, html {
     -moz-transition: 3s ease-in-out;
     -o-transition: 3s ease-in-out;*/
     position: relative;
+    left: 50%;
     color: #E4D6A7;
 }
 
+.former {
+    animation: rotor 3.3s;
+}
+
 .move {
-    animation: movecar 22s;
+    animation: movecar 10s;
+}
+
+@keyframes rotor {
+/*    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    } */
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    33% {
+        transform: rotate(180deg);
+    }
+
+    66% {
+        transform: rotate(-320deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes slide {
@@ -844,6 +875,10 @@ body, html {
 }
 
 @keyframes movecar {
-    from {left: -80px;}
-    to {left: 100%;}
+    from {
+        left: 50%;
+    }
+    to {
+        left: 100%;
+    }
 }
