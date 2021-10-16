@@ -803,7 +803,7 @@ body, html {
     height: 100%; /* Full height (cover the whole page) */
     top: 0;
     right: 0;
-    left: 100%;
+    left: 0;
     bottom: 0;
     background-color: #022F40; /* Black background with opacity */
     z-index: 12; /* Specify a stack order in case you're using a different order for other elements */
@@ -814,6 +814,10 @@ body, html {
     text-align: center;
     color: white;
     overflow: hidden;
+}
+
+.overbay {
+    left: 100%;
     animation: slide 5s ease-in;
 }
 
@@ -822,8 +826,11 @@ body, html {
     -moz-transition: 3s ease-in-out;
     -o-transition: 3s ease-in-out;*/
     position: relative;
-    animation: movecar 22s;
     color: #E4D6A7;
+}
+
+.move {
+    animation: movecar 22s;
 }
 
 @keyframes slide {
